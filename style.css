@@ -1,10 +1,15 @@
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: "IBM Plex Sans", sans-serif;
-  background-image: url(/assets/bg-main-mobile.png);
-  background-position: 50px -250px;
-  background-repeat: no-repeat, no-repeat;
   background-color: #f2f2f2;
+  margin: 0;
+  background-image: url(/assets/bg-main-mobile.png);
+  background-repeat: no-repeat;
+  background-position: top -230px right -250px;
 }
+
 .illustration {
   height: 430px;
   width: 208px;
@@ -22,6 +27,13 @@ main {
   margin-left: 24px;
   margin-bottom: 64px;
 }
+header {
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 166px;
+  
+}
+
 
 h1 {
   font-weight: 700;
@@ -37,11 +49,7 @@ header p {
   line-height: 26px;
   color: #191826;
 }
-.header-text {
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-bottom: 166px;
-}
+
 /* main section */
 main {
   background-color: #191826;
@@ -51,17 +59,18 @@ main {
   background-size: auto;
   position: relative;
   border-radius: 12px;
-
 }
 .illustration {
   position: absolute;
   top: -98px;
 }
-.main {
-  margin-top: 420px;
+.main-information {
+  /* margin-top: 420px; */
   padding: 48px 37px 48px 36px;
   background-color: #fa7453;
   border-radius: 12px;
+  position: absolute;
+  top: 400px;
 }
 h2 {
   font-size: 32px;
@@ -69,9 +78,9 @@ h2 {
   color: #fcfaf9;
   margin-bottom: 12px;
 }
-.main-p {
-  font-weight: 400px;
-  font-size: 18x;
+.main-information p {
+  font-weight: 400;
+  font-size: 18px;
   line-height: 28px;
   color: #fcfaf9;
 }
@@ -121,6 +130,7 @@ button {
 /* footer section */
 footer {
   padding: 64px 24px 80px 24px;
+  margin-top: 1000px;
 }
 
 footer p {
@@ -150,34 +160,30 @@ footer p {
     margin-bottom: 95px;
   }
   .header-text {
-    margin: 95px 230px 249px 24px;
-    
+    width: 250px;
   }
-h1{
-  font-size: 64px;
-  line-height: 64px;
-  letter-spacing: -0.73px;
-  margin-bottom: 28px;
-}
-header p{
-  font-size: 18px;
-  line-height: 28px;
-  
-}
+  h1 {
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -0.73px;
+    margin-bottom: 28px;
+  }
+  header p {
+    font-size: 18px;
+    line-height: 28px;
+  }
 
-
-/* footer */
-.contact-container{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-footer p{
-  margin-right: 230px;
-}
-.social-media-icons{
-  display: flex;
-  margin-bottom: 114px;
-}
-
+  /* footer */
+  .contact-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  footer p {
+    margin-right: 230px;
+  }
+  .social-media-icons {
+    display: flex;
+    margin-bottom: 114px;
+  }
 }
