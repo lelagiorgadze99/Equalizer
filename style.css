@@ -1,0 +1,183 @@
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  background-image: url(/assets/bg-main-mobile.png);
+  background-position: 50px -250px;
+  background-repeat: no-repeat, no-repeat;
+  background-color: #f2f2f2;
+}
+.illustration {
+  height: 430px;
+  width: 208px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* header section */
+
+.logo {
+  margin-top: 40px;
+  margin-left: 24px;
+  margin-bottom: 64px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.45px;
+  color: #191826;
+  margin-bottom: 20px;
+}
+header p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #191826;
+}
+.header-text {
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 166px;
+}
+/* main section */
+main {
+  background-color: #191826;
+  background-image: url(/assets/bg-pattern-2.svg);
+  background-repeat: no-repeat;
+  background-position: 48px 0px;
+  background-size: auto;
+  position: relative;
+  border-radius: 12px;
+
+}
+.illustration {
+  position: absolute;
+  top: -98px;
+}
+.main {
+  margin-top: 420px;
+  padding: 48px 37px 48px 36px;
+  background-color: #fa7453;
+  border-radius: 12px;
+}
+h2 {
+  font-size: 32px;
+  line-height: 40px;
+  color: #fcfaf9;
+  margin-bottom: 12px;
+}
+.main-p {
+  font-weight: 400px;
+  font-size: 18x;
+  line-height: 28px;
+  color: #fcfaf9;
+}
+.dollar {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 52px;
+  color: #fcfaf9;
+}
+.month {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -0.2 px;
+  color: #fcfaf9;
+}
+
+/* button section */
+button {
+  display: block;
+  border: none;
+  border-radius: 12px;
+  font-weight: 700;
+  line-height: 32px;
+  font-size: 16px;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ios {
+  background-color: #191826;
+  color: #fcfaf9;
+  padding: 15px 77px 14px 77px;
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+
+.android {
+  background-color: #fcfaf9;
+  color: #191826;
+  padding: 15px 59px;
+}
+
+/* footer section */
+footer {
+  padding: 64px 24px 80px 24px;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 32px;
+  margin-bottom: 66px;
+}
+.instagram-icon {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* tablet section */
+@media (min-width: 768px) {
+  body {
+    background-image: url(/assets/bg-main-tablet.png),
+      url(/assets/bg-pattern-1.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: -370px -170px, 550px -50px;
+  }
+
+  .logo {
+    margin-top: 62px;
+    margin-left: 40px;
+    margin-bottom: 95px;
+  }
+  .header-text {
+    margin: 95px 230px 249px 24px;
+    
+  }
+h1{
+  font-size: 64px;
+  line-height: 64px;
+  letter-spacing: -0.73px;
+  margin-bottom: 28px;
+}
+header p{
+  font-size: 18px;
+  line-height: 28px;
+  
+}
+
+
+/* footer */
+.contact-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+footer p{
+  margin-right: 230px;
+}
+.social-media-icons{
+  display: flex;
+  margin-bottom: 114px;
+}
+
+}
